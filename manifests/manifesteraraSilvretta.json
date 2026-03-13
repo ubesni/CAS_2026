@@ -1,0 +1,100 @@
+{
+  "viewingHint" : "paged",
+  "attribution" : "e-rara, the platform for digitized rare books from Swiss institutions",
+  "service" : [ {
+    "profile" : "http://iiif.io/api/search/1/search",
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://www.e-rara.ch/i3f/manifest/26930422/search",
+    "label" : "Search within this manifest"
+  } ],
+  "structures" : [ ],
+  "sequences" : [ {
+    "canvases" : [ {
+      "height" : 5495,
+      "width" : 12145,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/i3f/v20/26930423"
+          },
+          "format" : "image/jpeg",
+          "height" : 452,
+          "width" : 1000,
+          "@id" : "https://www.e-rara.ch/download/webcache/1000/26930423",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-rara.ch/i3f/v20/26930422/canvas/26930423",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-rara.ch/i3f/v20/26930422/annotation/26930423",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-rara.ch/i3f/v20/26930422/canvas/26930423",
+      "@type" : "sc:Canvas"
+    } ],
+    "viewingHint" : "paged",
+    "startCanvas" : "https://www.e-rara.ch/i3f/v20/26930422/canvas/26930423",
+    "viewingDirection" : "left-to-right",
+    "label" : "Current Page Order",
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://www.e-rara.ch/i3f/v20/26930422/sequence/normal",
+    "@type" : "sc:Sequence"
+  } ],
+  "label" : "Ansicht des Silvretta Gletschers von der Westseite",
+  "thumbnail" : {
+    "width" : 304,
+    "height" : 137,
+    "@id" : "https://www.e-rara.ch/i3f/v21/26930423/full/304/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg"
+  },
+  "logo" : {
+    "@id" : "https://www.e-rara.ch/domainresource/static/graphics/connectors/eraraIco.gif",
+    "service" : {
+      "profile" : "http://iiif.io/api/image/2/level2.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.library.ethz.ch"
+    }
+  },
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "metadata" : [ {
+    "value" : "Ansicht des Silvretta Gletschers von der Westseite / den 5. Sept. 1865 aufgenommen vom Birchrücken, 2465 m, von J. Müller-Wegmann u. [Heinrich] Zeller-Horner",
+    "label" : "Titel"
+  }, {
+    "value" : "Müller, Johann [1810-1893] ",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "Zeller-Horner, Heinrich [1810-1897] ",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "Lips, Jakob Friedrich Ferdinand [1825-1885] ",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "[Bern] : [Verlag der Expedition des Jahrbuches des S.A.C.], [1866]",
+    "label" : "Impressum"
+  }, {
+    "value" : "1 Panorama ; 18 x 45 cm : mehrfarbig",
+    "label" : "Umfang"
+  }, {
+    "value" : "(E 10°03'22\"-E 10°06'29\"/N 46°51'56\"-N 46°49'49\")",
+    "label" : "Kartendaten"
+  }, {
+    "value" : "ETH-Bibliothek Zürich, Rar K 879",
+    "label" : "Besitzende Institution"
+  }, {
+    "value" : "12.4.2022",
+    "label" : "Online seit"
+  }, {
+    "value" : "https://doi.org/10.3931/e-rara-95133",
+    "label" : "DOI"
+  } ],
+  "@id" : "https://ubesni.github.io/CAS_2026/manifests/manifesteraraSilvretta.json",
+  "@type" : "sc:Manifest",
+  "seeAlso" : {
+    "format" : "application/xml",
+    "@id" : "https://www.e-rara.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=26930422",
+    "label" : "METS"
+  }
+}
