@@ -1,0 +1,15 @@
+{
+  "id" : "https://ubesni.github.io/CAS_2026/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ubesni/CAS_2026 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://ubesni.github.io/CAS_2026/manifests/manifest.json",
+    "label" : {
+      "none" : [ "Jahrbuch des Schweizer Alpenclub: Ansicht des Silvretta Gletschers von der Westseite" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
