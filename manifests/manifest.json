@@ -1,0 +1,207 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://ubesni.github.io/CAS_2026/manifests/manifest.json",
+  "type" : "Manifest",
+  "behavior" : [ "paged", "paged" ],
+  "label" : {
+    "none" : [ "Jahrbuch des Schweizer Alpenclub: Ansicht des Silvretta Gletschers von der Westseite" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "Titel" ]
+    },
+    "value" : {
+      "none" : [ "Ansicht des Silvretta Gletschers von der Westseite / den 5. Sept. 1865 aufgenommen vom Birchrücken, 2465 m, von J. Müller-Wegmann u. [Heinrich] Zeller-Horner ; Lith. F. Lips, Bern" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Autor, Beteiligte" ]
+    },
+    "value" : {
+      "none" : [ "Müller, Johann [1810-1893] " ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Autor, Beteiligte" ]
+    },
+    "value" : {
+      "none" : [ "Zeller-Horner, Heinrich [1810-1897] " ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Autor, Beteiligte" ]
+    },
+    "value" : {
+      "none" : [ "Lips, Jakob Friedrich Ferdinand [1825-1885] " ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Enthalten in" ]
+    },
+    "value" : {
+      "none" : [ "Jahrbuch des Schweizer Alpenclub / hrsg. vom Zentralkomitee des Schweizer Alpenclub, 3(1864-), 3 (1866)no:3" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Impressum" ]
+    },
+    "value" : {
+      "none" : [ "[Bern] : [Verlag der Expedition des Jahrbuches des S.A.C.], [1866]" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Umfang" ]
+    },
+    "value" : {
+      "none" : [ "1 Panorama ; 18 x 45 cm" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Besitzende Institution" ]
+    },
+    "value" : {
+      "none" : [ "Zentralbibliothek Zürich, S Grb Silvretta Gletscher I 5" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Online seit" ]
+    },
+    "value" : {
+      "none" : [ "26.5.2015" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "DOI" ]
+    },
+    "value" : {
+      "none" : [ "https://doi.org/10.3931/e-rara-31484" ]
+    }
+  } ],
+  "requiredStatement" : {
+    "label" : {
+      "none" : [ "Attribution" ]
+    },
+    "value" : {
+      "none" : [ "e-rara, the platform for digitized rare books from Swiss institutions" ]
+    }
+  },
+  "thumbnail" : [ {
+    "id" : "https://www.e-rara.ch/i3f/v21/10078076/full/304/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 173,
+    "width" : 304
+  } ],
+  "provider" : [ {
+    "id" : "http://example.org/provider",
+    "type" : "Agent",
+    "label" : {
+      "none" : [ "" ]
+    },
+    "logo" : [ {
+      "id" : "https://www.e-rara.ch/domainresource/static/graphics/connectors/eraraIco.gif",
+      "type" : "unknown",
+      "service" : [ {
+        "@id" : "http://www.zb.uzh.ch",
+        "@type" : "ImageService2",
+        "profile" : "level2"
+      } ]
+    } ]
+  } ],
+  "seeAlso" : [ {
+    "id" : "https://www.e-rara.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=10078075",
+    "type" : "Dataset",
+    "format" : "application/xml",
+    "label" : {
+      "none" : [ "METS" ]
+    }
+  } ],
+  "service" : [ {
+    "@id" : "https://www.e-rara.ch/i3f/manifest/10078075/search",
+    "@type" : "SearchService1",
+    "profile" : "http://iiif.io/api/search/1/search",
+    "label" : "Search within this manifest"
+  } ],
+  "start" : {
+    "id" : "https://www.e-rara.ch/i3f/v20/10078075/canvas/10078076",
+    "type" : "Canvas"
+  },
+  "items" : [ {
+    "id" : "https://www.e-rara.ch/i3f/v20/10078075/canvas/10078076",
+    "type" : "Canvas",
+    "height" : 4567,
+    "width" : 8023,
+    "label" : {
+      "none" : [ "Silvrettagletscher" ]
+    },
+    "summary" : {
+      "en" : [ "" ]
+    },
+    "items" : [ {
+      "id" : "https://www.e-rara.ch/i3f/v20/10078075/canvas/10078076/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://www.e-rara.ch/i3f/v20/10078075/annotation/10078076",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://www.e-rara.ch/i3f/v20/10078075/canvas/10078076",
+        "body" : {
+          "id" : "https://www.e-rara.ch/download/webcache/1000/10078076",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 569,
+          "width" : 1000,
+          "service" : [ {
+            "@id" : "https://www.e-rara.ch/i3f/v20/10078076",
+            "@type" : "ImageService2",
+            "profile" : "level2"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://www.e-rara.ch/i3f/v20/10078075/manifest/canvas/rd56lmahsrl-mmoqzj7i",
+    "type" : "Canvas",
+    "height" : 5686,
+    "width" : 4991,
+    "label" : {
+      "en" : [ "Grossmünster" ]
+    },
+    "items" : [ {
+      "id" : "https://www.e-rara.ch/i3f/v20/10078075/manifest/canvas/rd56lmahsrl-mmoqzj7i/annotation-page/jvvompl8qel-mmoqzj7i",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://www.e-rara.ch/i3f/v20/10078075/manifest/annotation/6ru5t8la0ew-mmoqziqf",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://www.e-rara.ch/i3f/v20/10078075/manifest/canvas/rd56lmahsrl-mmoqzj7i",
+        "body" : {
+          "id" : "https://www.e-rara.ch/bes_1/i3f/v21/12530938/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5686,
+          "width" : 4991
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "id" : "https://www.e-rara.ch/i3f/v20/10078075/range/7265103",
+    "type" : "Range",
+    "behavior" : [ "top" ],
+    "label" : {
+      "none" : [ "Table of Contents" ]
+    },
+    "items" : [ {
+      "id" : "https://www.e-rara.ch/i3f/v20/10078075/range/10078075",
+      "type" : "Range",
+      "label" : {
+        "none" : [ "Ansicht des Silvretta Gletschers von der Westseite" ]
+      },
+      "items" : [ {
+        "id" : "https://www.e-rara.ch/i3f/v20/10078075/canvas/10078076",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ]
+}
