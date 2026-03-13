@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ubesni.github.io/CAS_2026/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in ubesni/CAS_2026 project"
+        ]
+    },
+    "items": []
+}
