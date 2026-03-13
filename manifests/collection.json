@@ -17,5 +17,9 @@
       "none" : [ "Jahrbuch des Schweizer Alpenclub: Ansicht des Silvretta Gletschers von der Westseite" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ubesni.github.io/CAS_2026/manifests/manifesteraraSilvretta.json",
+    "label" : "Ansicht des Silvretta Gletschers von der Westseite"
   } ]
 }
